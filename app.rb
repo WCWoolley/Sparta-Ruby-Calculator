@@ -98,7 +98,7 @@ def calc_type
     puts "Your journey will take #{x} hours."
     if d.to_f > 60
       y = (d.to_f - 60) * 2
-      if y < 60
+      if y < b.to_f
         i = b.to_f - y.to_f
         puts "Going at that speed your MPG will drop to #{i}"
         z = (a.to_f / i.to_f) * c.to_f
